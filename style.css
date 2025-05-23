@@ -237,6 +237,11 @@ section{
         padding: 12px 24px;
         font-size: 12px;
     }
+
+    .hero-img img:hover {
+    width: 90%;
+    opacity: 0.6;
+}
 }
 
 @media(max-width:660px){
@@ -255,8 +260,14 @@ section{
     }
 
     .hero-img img{
-        margin: 0;
+        width: 65%;
+        margin: 10% 0 0 10%;
     }
+
+    .hero-img img:hover {
+    width: 75%;
+    opacity: 0.6;
+}
 
     .hero{
         height: 100%;
@@ -288,5 +299,5 @@ section{
         right: 0;
 
     }
-    
+
 }
